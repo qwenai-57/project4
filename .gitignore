@@ -1,0 +1,53 @@
+```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.class
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Dependencies
+vendor/
+node_modules/
+*.egg-info/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Distribution / packaging
+dist/
+build/
+*.tar.gz
+*.zip
+
+# PHP specific
+*.phar
+opcache/
+
+# Testing
+.phpunit.result.cache
+.php_cs.cache
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
